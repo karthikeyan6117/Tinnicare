@@ -1,0 +1,33 @@
+{
+  "model_version": "linear_v1",
+  "features": [
+    "stress_level",
+    "sleep_hours",
+    "loudness_level",
+    "hearing_level"
+  ],
+  "targets": [
+    "frequency_hz",
+    "intensity_db"
+  ],
+  "hearing_levels": {
+    "No": 0,
+    "Mild": 1,
+    "Yes": 2
+  },
+  "n_samples": 83,
+  "freq_r2": 0.9848593130526667,
+  "intensity_r2": 0.9556553107136911,
+  "freq_coefficients": {
+    "stress_level": 771.443404386848,
+    "sleep_hours": -231.3218190953889,
+    "loudness_level": 536.1950345194622,
+    "hearing_level": 430.615745030042
+  },
+  "intensity_coefficients": {
+    "stress_level": 1.8725041024131466,
+    "sleep_hours": -0.4883122626193461,
+    "loudness_level": 1.7145358695819557,
+    "hearing_level": 1.6517500226566981
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "TinniCare",
+    "slug": "tinnicare",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "tinnicare",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.tinnicare.app"
+    },
+    "android": {
+      "package": "com.tinnicare.app"
+    }
+  }
+}
