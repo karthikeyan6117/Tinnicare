@@ -1,4 +1,4 @@
-export const API_BASE_URL = "https://tinnicare.onrender.com/";
+export const API_BASE_URL = "https://tinnicare.onrender.com/api/v1/";
 
 export const endpoints = {
   auth: { login: "/auth/login", register: "/auth/register", me: "/auth/me", profileStatus: "/auth/profile/status", profileDetails: "/auth/profile", profileUpdate: "/auth/profile" },
