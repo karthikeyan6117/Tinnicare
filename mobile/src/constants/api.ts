@@ -1,4 +1,9 @@
-export const API_BASE_URL = "http://localhost:8000/api/v1";
+import { Platform } from "react-native";
+
+const LOCALHOST_API_BASE_URL = "http://localhost:8000/api/v1";
+const ANDROID_EMULATOR_API_BASE_URL = "http://10.0.2.2:8000/api/v1";
+
+export const API_BASE_URL = Platform.OS === "android" ? ANDROID_EMULATOR_API_BASE_URL : LOCALHOST_API_BASE_URL;
 
 export const endpoints = {
   auth: {
